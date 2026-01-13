@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M Agus Taufik & Mahda Tri Utami</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Countdown CSS -->
+    <link rel="stylesheet" href="countdown/default.min.css" />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+      // Disable scroll saat hero muncul
+      document.body.style.overflow = "hidden";
+    </script>
+  </head>
+
+  <body>
+    <!-- ===== BACKSOUND ===== -->
+    <audio id="backsound" loop>
+      <source
+        src="musik/WhatsApp Video 2026-01-13 at 16.35.00.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <!-- ===== HERO / COVER ===== -->
+    <section class="hero" id="hero">
+      <div class="overlay"></div>
+      <div class="hero-content text-center">
+        <h4 data-aos="fade-down">Undangan Pernikahan</h4>
+        <h1 data-aos="fade-up">
+          M Agus Taufik <br />
+          & <br />
+          Mahda Tri Utami
+        </h1>
+        <p data-aos="fade-up" data-aos-delay="200">Sabtu, 24 Januari 2026</p>
+        <button id="openInvitation" class="btn btn-undangan">
+          Buka Undangan
+        </button>
+      </div>
+    </section>
+
+    <!-- ===== COUNTDOWN ===== -->
+    <section class="countdown-section text-center" id="countdown">
+      <h2 data-aos="fade-up">Menuju Hari Bahagia</h2>
+      <div id="simply-countdown"></div>
+    </section>
+
+    <!-- ===== MEMPELAI ===== -->
+    <section class="mempelai-section" id="mempelai">
+      <div class="container text-center">
+        <h2 data-aos="fade-up">Assalamu’alaikum Wr. Wb.</h2>
+        <p class="pembuka" data-aos="fade-up" data-aos-delay="100">
+          Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud
+          menyelenggarakan pernikahan putra-putri kami:
+        </p>
+
+        <div class="mempelai-box-wrapper">
+          <!-- MEMPELAI PRIA -->
+          <div class="mempelai-box" data-aos="fade-up">
+            <h3>M Agus Taufik</h3>
+            <span class="line"></span>
+            <p class="ortu">
+              Putra dari <br />
+              Bapak Alm. H. Ali Imam <br />
+              & Ibu Eha Julaeha
+            </p>
+          </div>
+
+          <span class="dan" data-aos="zoom-in">&</span>
+
+          <!-- MEMPELAI WANITA -->
+          <div class="mempelai-box" data-aos="fade-up" data-aos-delay="200">
+            <h3>Mahda Tri Utami</h3>
+            <span class="line"></span>
+            <p class="ortu">
+              Putri dari <br />
+              Bapak Uned Sutisna S.pd.<br />
+              & Ibu Yayah Bahriah
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AYAT & DOA ===== -->
+    <section class="ayat-doa text-center">
+      <div class="container">
+        <div class="box-ayat" data-aos="zoom-in-up">
+          <div class="icon">﴾ ﷽ ﴿</div>
+          <p class="ayat-arab">
+            وَمِنْ آيَاتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا
+            لِّتَسْكُنُوٓا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً
+          </p>
+          <p class="ayat-arti">
+            “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan
+            untukmu pasangan-pasangan dari jenismu sendiri agar kamu merasa
+            tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan
+            sayang.” <br /><strong>(QS. Ar-Rum: 21)</strong>
+          </p>
+        </div>
+
+        <div class="box-ayat mt-5" data-aos="zoom-in-up" data-aos-delay="200">
+          <div class="icon">☪</div>
+          <p class="ayat-arab">
+            بَارَكَ اللّٰهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا
+            فِي خَيْرٍ
+          </p>
+          <p class="ayat-arti">
+            “Semoga Allah memberkahi kalian berdua, memberkahi pernikahan
+            kalian, dan mengumpulkan kalian berdua dalam kebaikan.”
+            <br /><strong>(HR. Abu Dawud & Tirmidzi)</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WAKTU & TEMPAT ACARA ===== -->
+    <section class="acara-section" id="acara">
+      <div class="container">
+        <div class="box rgb-box text-center" data-aos="fade-up">
+          <h2>Waktu & Tempat</h2>
+          <div class="acara-wrapper">
+            <div class="acara-card" data-aos="fade-right">
+              <h4>Akad Nikah</h4>
+              <p>Sabtu, 24 Januari 2026</p>
+              <p>09.00 WIB</p>
+            </div>
+            <div class="acara-card" data-aos="fade-left">
+              <h4>Resepsi</h4>
+              <p>Sabtu, 24 Januari 2026</p>
+              <p>10.00 – 12.00 WIB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PENTING: Kehadiran Tepat Waktu ===== -->
+    <section class="penting-section" id="penting">
+      <div class="container">
+        <div class="box rgb-box text-center" data-aos="fade-up">
+          <p>
+            Kami mengharapkan kehadiran Bapak/Ibu tepat waktu agar seluruh
+            rangkaian acara dapat berlangsung dengan khidmat hingga selesai
+            pukul 12.00 WIB.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LOKASI ACARA ===== -->
+    <section class="lokasi-section" id="lokasi">
+      <div class="container">
+        <div class="box rgb-box text-center" data-aos="fade-up">
+          <h2>Lokasi Acara</h2>
+          <p class="alamat">
+            Kediaman Mempelai<br />
+            (Alamat Lengkap Acara)
+          </p>
+
+          <!-- Google Maps Embed Klik -->
+          <div class="map-wrapper">
+            <a
+              href="https://www.google.com/maps/place/6%C2%B040'13.6%22S+107%C2%B040'17.7%22E/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <iframe
+                src="https://www.google.com/maps?q=-6.6704559,107.6715698&z=17&output=embed"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer-section text-center">
+      <div class="container">
+        <p class="footer-thanks">
+          Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
+          Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.
+        </p>
+        <p>Wallahul muwaffiq ila aqwamith thariq. Wassalamu’alaikum Wr. Wb.</p>
+        <p class="footer-copy">
+          &copy; 2026 M Agus Taufik & Mahda Tri Utami. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- ===== JS ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="countdown/simplyCountdown.umd.js"></script>
+    <script src="script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
